@@ -1,0 +1,99 @@
+.mainApp {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #a90596, #8e03a3);
+}
+.container {
+  border: 3px solid rgb(106, 5, 143);
+  width: 38%;
+  margin: 39px;
+  border-radius: 6px;
+  background-color: white;
+}
+.heading {
+  font-size: 40px;
+  color: #420260;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0px;
+}
+input {
+  width: 60%;
+  height: 35px;
+  outline: none;
+  font-size: 19px;
+  padding-left: 8px;
+  color: #370150;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+input:focus, 
+input:valid{
+  border-color: #8a29b1;
+}
+.addBtn {
+  padding-top: 0px;
+  margin-left: 16px;
+  width: 54px;
+  height: 39px;
+  font-size: 35px;
+  border-radius: 3px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  outline: none;
+}
+.tasksEnter {
+  margin: 65px 68px;
+}
+.task {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  text-align: initial;
+  margin-top: 16px;
+}
+.task p {
+  width: 84%;
+  font-size: 22px;
+  margin: 2px;
+  padding: 5px 0px;
+  padding-left: 8px;
+  color: #370150;
+  background-color: rgb(244, 230, 247);
+}
+.delete {
+  width: 34px;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 6px;
+  outline: none;
+}
+.edit {
+  margin-left: 10px;
+  width: 34px;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 6px;
+  outline: none;
+}
